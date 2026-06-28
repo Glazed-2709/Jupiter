@@ -210,15 +210,20 @@
   .navicon svg{width:14px;height:14px}
 
   /* ----- bouton flottant "Se tester" ----- */
-  .fab-test{position:fixed;left:50%;bottom:24px;transform:translateX(-50%);z-index:35;
-    width:56px;height:56px;border-radius:50%;display:none;align-items:center;justify-content:center;
-    border:1px solid var(--accent);background:rgba(12,13,17,.88);backdrop-filter:blur(8px);
-    color:var(--txt);cursor:pointer;transition:.18s;box-shadow:0 6px 24px rgba(0,0,0,.5)}
+  .fab-test{position:fixed;left:50%;bottom:28px;transform:translateX(-50%);z-index:35;
+    display:none;align-items:center;gap:10px;
+    padding:0 28px;height:46px;
+    border:1px solid var(--accent);background:rgba(8,9,12,.9);backdrop-filter:blur(10px);
+    color:var(--txt);cursor:pointer;transition:.18s;
+    font-family:var(--mono);font-size:10px;letter-spacing:2px;text-transform:uppercase;
+    box-shadow:0 4px 20px rgba(0,0,0,.6),0 0 0 0 rgba(255,48,120,0)}
   .fab-test.show{display:flex}
-  .fab-test:hover{background:rgba(255,48,120,.2);box-shadow:0 0 28px rgba(255,48,120,.4);
-    transform:translateX(-50%) translateY(-3px)}
-  .fab-test:disabled{opacity:.3;cursor:not-allowed;box-shadow:none;transform:translateX(-50%)}
-  .fab-test svg{width:22px;height:22px}
+  .fab-test:hover{background:rgba(255,48,120,.14);
+    box-shadow:0 4px 20px rgba(0,0,0,.6),0 0 20px rgba(255,48,120,.3);
+    transform:translateX(-50%) translateY(-2px)}
+  .fab-test:disabled{opacity:.25;cursor:not-allowed;
+    box-shadow:0 4px 20px rgba(0,0,0,.4);transform:translateX(-50%)}
+  .fab-test svg{width:15px;height:15px;flex:0 0 auto}
 
   /* ----- visualiseur de documents (multi-panneaux) ----- */
   .viewer{position:fixed;inset:0;z-index:55;background:rgba(4,5,7,.97);
@@ -370,7 +375,8 @@ MathJax={tex:{inlineMath:[['$','$'],['\\(','\\)']],displayMath:[['$$','$$'],['\\
 
 <!-- ====== bouton flottant : se tester ====== -->
 <button class="fab-test" id="goTest" title="Se tester">
-  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 11l3 3L22 4"/><path d="M21 12v7a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11"/></svg>
+  Se tester
 </button>
 
 <!-- ====== visualiseur de documents (PDF, images…) ====== -->
