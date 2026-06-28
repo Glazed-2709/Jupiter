@@ -1,0 +1,1402 @@
+{
+  "version": 1,
+  "sections": [
+    {
+      "id": "MPSI",
+      "label": "MPSI",
+      "color": "#ff2f6d",
+      "manifest": "MPSI/manifest.json",
+      "subjects": [
+        {
+          "id": "Mathématiques",
+          "label": "Mathématiques",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Cours",
+              "label": "Cours",
+              "abbrev": "C"
+            },
+            {
+              "id": "TD",
+              "label": "Travaux dirigés",
+              "abbrev": "TD"
+            },
+            {
+              "id": "DM",
+              "label": "Devoir maison",
+              "abbrev": "DM"
+            },
+            {
+              "id": "Colle",
+              "label": "Colle",
+              "abbrev": "Colle"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": [
+            {
+              "id": "01 - Fonctions usuelles _ 1",
+              "nom": "Fonctions usuelles _ 1",
+              "ordre": 1
+            },
+            {
+              "id": "02 - Quantificateurs, éléments de logique",
+              "nom": "Quantificateurs, éléments de logique",
+              "ordre": 2
+            },
+            {
+              "id": "03 - Quelques types de raisonnements",
+              "nom": "Quelques types de raisonnements",
+              "ordre": 3
+            },
+            {
+              "id": "04 - Sommes et produits",
+              "nom": "Sommes et produits",
+              "ordre": 4
+            },
+            {
+              "id": "05 - Ensembles et applications",
+              "nom": "Ensembles et applications",
+              "ordre": 5
+            },
+            {
+              "id": "06 - Nombres complexes",
+              "nom": "Nombres complexes",
+              "ordre": 6
+            },
+            {
+              "id": "07 - Inégalités",
+              "nom": "Inégalités",
+              "ordre": 7
+            },
+            {
+              "id": "08 - Fonctions usuelles _ 2",
+              "nom": "Fonctions usuelles _ 2",
+              "ordre": 8
+            },
+            {
+              "id": "09 - Calcul intégral",
+              "nom": "Calcul intégral",
+              "ordre": 9
+            },
+            {
+              "id": "10 - Equations différentielles linéaires d'ordre 1",
+              "nom": "Equations différentielles linéaires d'ordre 1",
+              "ordre": 10
+            },
+            {
+              "id": "11 - Equations différentielles linéaires d'ordre 2",
+              "nom": "Equations différentielles linéaires d'ordre 2",
+              "ordre": 11
+            },
+            {
+              "id": "12 - Structures algébriques",
+              "nom": "Structures algébriques",
+              "ordre": 12
+            },
+            {
+              "id": "13 - Arithmétique",
+              "nom": "Arithmétique",
+              "ordre": 13
+            },
+            {
+              "id": "14 - L'ensemble des nombres réel",
+              "nom": "L'ensemble des nombres réel",
+              "ordre": 14
+            },
+            {
+              "id": "15 - Suites réelles",
+              "nom": "Suites réelles",
+              "ordre": 15
+            },
+            {
+              "id": "16 - Polynômes",
+              "nom": "Polynômes",
+              "ordre": 16
+            },
+            {
+              "id": "17 - Matrices et systèmes linéaires",
+              "nom": "Matrices et systèmes linéaires",
+              "ordre": 17
+            },
+            {
+              "id": "18 - Limites et continuité",
+              "nom": "Limites et continuité",
+              "ordre": 18
+            },
+            {
+              "id": "19 - Dérivation",
+              "nom": "Dérivation",
+              "ordre": 19
+            },
+            {
+              "id": "20 - Convexité",
+              "nom": "Convexité",
+              "ordre": 20
+            },
+            {
+              "id": "21 - Suites récurrentes",
+              "nom": "Suites récurrentes",
+              "ordre": 21
+            },
+            {
+              "id": "22 - Calculs asymptotiques",
+              "nom": "Calculs asymptotiques",
+              "ordre": 22
+            },
+            {
+              "id": "23 - Espaces vectoriels",
+              "nom": "Espaces vectoriels",
+              "ordre": 23
+            },
+            {
+              "id": "24 - Applications linéaires",
+              "nom": "Applications linéaires",
+              "ordre": 24
+            },
+            {
+              "id": "25 - Intégration",
+              "nom": "Intégration",
+              "ordre": 25
+            },
+            {
+              "id": "26 - Dimension finie",
+              "nom": "Dimension finie",
+              "ordre": 26
+            },
+            {
+              "id": "27 - Matrices d'applications linéaires",
+              "nom": "Matrices d'applications linéaires",
+              "ordre": 27
+            },
+            {
+              "id": "28 - Séries et familles sommables",
+              "nom": "Séries et familles sommables",
+              "ordre": 28
+            },
+            {
+              "id": "29 - Espaces préhilbertiens réels",
+              "nom": "Espaces préhilbertiens réels",
+              "ordre": 29
+            },
+            {
+              "id": "30 - Probabilités",
+              "nom": "Probabilités",
+              "ordre": 30
+            },
+            {
+              "id": "31 - Groupes symétriques",
+              "nom": "Groupes symétriques",
+              "ordre": 31
+            },
+            {
+              "id": "32 - Déterminant",
+              "nom": "Déterminant",
+              "ordre": 32
+            },
+            {
+              "id": "33 - Fonctions de deux variables",
+              "nom": "Fonctions de deux variables",
+              "ordre": 33
+            }
+          ]
+        },
+        {
+          "id": "Physique",
+          "label": "Physique",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "TD",
+              "label": "Travaux dirigés",
+              "abbrev": "TD"
+            },
+            {
+              "id": "DM",
+              "label": "Devoir maison",
+              "abbrev": "DM"
+            },
+            {
+              "id": "DS",
+              "label": "Devoir surveillé",
+              "abbrev": "DS"
+            },
+            {
+              "id": "Colle",
+              "label": "Colle",
+              "abbrev": "Colle"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": [
+            {
+              "id": "01 - Optique",
+              "nom": "Optique",
+              "ordre": 1
+            },
+            {
+              "id": "02 - Régime continu et ordre 1",
+              "nom": "Régime continu et ordre 1",
+              "ordre": 2
+            },
+            {
+              "id": "03 - Oscillateur",
+              "nom": "Oscillateur",
+              "ordre": 3
+            },
+            {
+              "id": "04 - Régime sinusoïdal forcé",
+              "nom": "Régime sinusoïdal forcé",
+              "ordre": 4
+            },
+            {
+              "id": "05 - Filtrage linéaire",
+              "nom": "Filtrage linéaire",
+              "ordre": 5
+            },
+            {
+              "id": "06 - Propagation d'un signal",
+              "nom": "Propagation d'un signal",
+              "ordre": 6
+            },
+            {
+              "id": "07 - Cinématique du point",
+              "nom": "Cinématique du point",
+              "ordre": 7
+            },
+            {
+              "id": "08 - Principes de la dynamique",
+              "nom": "Principes de la dynamique",
+              "ordre": 8
+            },
+            {
+              "id": "09 - Energie mécanique",
+              "nom": "Energie mécanique",
+              "ordre": 9
+            },
+            {
+              "id": "10 - Champ électrique et magnétique",
+              "nom": "Champ électrique et magnétique",
+              "ordre": 10
+            },
+            {
+              "id": "11 - Moment cinétique",
+              "nom": "Moment cinétique",
+              "ordre": 11
+            },
+            {
+              "id": "12 - Forces centrales",
+              "nom": "Forces centrales",
+              "ordre": 12
+            },
+            {
+              "id": "13 - Système thermodynamique",
+              "nom": "Système thermodynamique",
+              "ordre": 13
+            },
+            {
+              "id": "14 - Premier principe",
+              "nom": "Premier principe",
+              "ordre": 14
+            },
+            {
+              "id": "15 - Deuxième principe",
+              "nom": "Deuxième principe",
+              "ordre": 15
+            },
+            {
+              "id": "16 - Machines thermiques",
+              "nom": "Machines thermiques",
+              "ordre": 16
+            },
+            {
+              "id": "17 - Champ magnétique",
+              "nom": "Champ magnétique",
+              "ordre": 17
+            },
+            {
+              "id": "18 - Induction électromagnétique",
+              "nom": "Induction électromagnétique",
+              "ordre": 18
+            }
+          ]
+        },
+        {
+          "id": "Informatique",
+          "label": "Informatique",
+          "structure": "direct",
+          "categories": [
+            {
+              "id": "TP",
+              "label": "Travaux pratiques",
+              "abbrev": "TP"
+            },
+            {
+              "id": "TP_Cor",
+              "label": "Travaux pratiques Correction",
+              "abbrev": "TP_Cor"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          }
+        },
+        {
+          "id": "Français",
+          "label": "Français",
+          "structure": "direct",
+          "categories": [],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          }
+        },
+        {
+          "id": "SI",
+          "label": "SI",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "TD",
+              "label": "Travaux dirigés",
+              "abbrev": "TD"
+            },
+            {
+              "id": "DS",
+              "label": "Devoir surveillé",
+              "abbrev": "DS"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": [
+            {
+              "id": "01 - Cinématique",
+              "nom": "Cinématique",
+              "ordre": 1
+            },
+            {
+              "id": "02 - Statique",
+              "nom": "Statique",
+              "ordre": 2
+            },
+            {
+              "id": "03 - Engrenages",
+              "nom": "Engrenages",
+              "ordre": 3
+            },
+            {
+              "id": "04 - Asservissement",
+              "nom": "Asservissement",
+              "ordre": 4
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Projet X",
+      "label": "Projet X",
+      "color": "#5b8cff",
+      "manifest": "Projet X/manifest.json",
+      "subjects": [
+        {
+          "id": "Mathématiques",
+          "label": "Mathématiques",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "TD",
+              "label": "Travaux dirigés",
+              "abbrev": "TD"
+            },
+            {
+              "id": "DM",
+              "label": "Devoir maison",
+              "abbrev": "DM"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": [
+            {
+              "id": "01 - Ensembles et applications",
+              "nom": "Ensembles et applications",
+              "ordre": 1
+            },
+            {
+              "id": "02 - Calcul algébrique",
+              "nom": "Calcul algébrique",
+              "ordre": 2
+            },
+            {
+              "id": "03 - Nombres complexes",
+              "nom": "Nombres complexes",
+              "ordre": 3
+            },
+            {
+              "id": "04 - Calcul intégral",
+              "nom": "Calcul intégral",
+              "ordre": 4
+            },
+            {
+              "id": "05 - Equations différentielles",
+              "nom": "Equations différentielles",
+              "ordre": 5
+            },
+            {
+              "id": "06 - Structures algébriques",
+              "nom": "Structures algébriques",
+              "ordre": 6
+            },
+            {
+              "id": "07 - Arithmétique",
+              "nom": "Arithmétique",
+              "ordre": 7
+            },
+            {
+              "id": "08 - Réels",
+              "nom": "Réels",
+              "ordre": 8
+            },
+            {
+              "id": "09 - Suites Classiques et récurrentes",
+              "nom": "Suites Classiques et récurrentes",
+              "ordre": 9
+            },
+            {
+              "id": "10 - Polynômes",
+              "nom": "Polynômes",
+              "ordre": 10
+            },
+            {
+              "id": "11 - Limite et Continuité",
+              "nom": "Limite et Continuité",
+              "ordre": 11
+            },
+            {
+              "id": "12 - Dérivation",
+              "nom": "Dérivation",
+              "ordre": 12
+            },
+            {
+              "id": "13 - Convexité",
+              "nom": "Convexité",
+              "ordre": 13
+            },
+            {
+              "id": "14 - Analyse asymptotique",
+              "nom": "Analyse asymptotique",
+              "ordre": 14
+            },
+            {
+              "id": "15 - Espaces vectoriels",
+              "nom": "Espaces vectoriels",
+              "ordre": 15
+            },
+            {
+              "id": "16 - Intégration",
+              "nom": "Intégration",
+              "ordre": 16
+            },
+            {
+              "id": "17 - Matrices d'applications linéaires",
+              "nom": "Matrices d'applications linéaires",
+              "ordre": 17
+            },
+            {
+              "id": "18 - Séries et familles sommables",
+              "nom": "Séries et familles sommables",
+              "ordre": 18
+            },
+            {
+              "id": "19 - Espaces préhilbertiens",
+              "nom": "Espaces préhilbertiens",
+              "ordre": 19
+            },
+            {
+              "id": "20 - Probabilités",
+              "nom": "Probabilités",
+              "ordre": 20
+            },
+            {
+              "id": "21 - Déterminant et Symétrique",
+              "nom": "Déterminant et Symétrique",
+              "ordre": 21
+            },
+            {
+              "id": "22 - Fonctions de deux variables",
+              "nom": "Fonctions de deux variables",
+              "ordre": 22
+            }
+          ]
+        },
+        {
+          "id": "Physique",
+          "label": "Physique",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "TD",
+              "label": "Travaux dirigés",
+              "abbrev": "TD"
+            },
+            {
+              "id": "DM",
+              "label": "Devoir maison",
+              "abbrev": "DM"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": [
+            {
+              "id": "01 - Optique",
+              "nom": "Optique",
+              "ordre": 1
+            },
+            {
+              "id": "02 - Electricité",
+              "nom": "Electricité",
+              "ordre": 2
+            },
+            {
+              "id": "03 - Oscillateurs",
+              "nom": "Oscillateurs",
+              "ordre": 3
+            },
+            {
+              "id": "04 - Filtrage linéaire",
+              "nom": "Filtrage linéaire",
+              "ordre": 4
+            },
+            {
+              "id": "05 - Propagation d'un signal",
+              "nom": "Propagation d'un signal",
+              "ordre": 5
+            },
+            {
+              "id": "06 - Cinématique et Dynamique",
+              "nom": "Cinématique et Dynamique",
+              "ordre": 6
+            },
+            {
+              "id": "07 - Energie mécanique",
+              "nom": "Energie mécanique",
+              "ordre": 7
+            },
+            {
+              "id": "08 - Mouvement dans un champ",
+              "nom": "Mouvement dans un champ",
+              "ordre": 8
+            },
+            {
+              "id": "09 - Moment cinétique et Force centrale",
+              "nom": "Moment cinétique et Force centrale",
+              "ordre": 9
+            },
+            {
+              "id": "10 - Thermodynamique",
+              "nom": "Thermodynamique",
+              "ordre": 10
+            },
+            {
+              "id": "11 - Machines thermiques",
+              "nom": "Machines thermiques",
+              "ordre": 11
+            },
+            {
+              "id": "12 - Electromagnétisme",
+              "nom": "Electromagnétisme",
+              "ordre": 12
+            },
+            {
+              "id": "13 - Amplification linéaire",
+              "nom": "Amplification linéaire",
+              "ordre": 13
+            }
+          ]
+        },
+        {
+          "id": "Chimie",
+          "label": "Chimie",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "TD",
+              "label": "Travaux dirigés",
+              "abbrev": "TD"
+            },
+            {
+              "id": "DM",
+              "label": "Devoir maison",
+              "abbrev": "DM"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": [
+            {
+              "id": "01 - Cinétique et Molécules",
+              "nom": "Cinétique et Molécules",
+              "ordre": 1
+            },
+            {
+              "id": "02 - Cristaux et Dissolution",
+              "nom": "Cristaux et Dissolution",
+              "ordre": 2
+            },
+            {
+              "id": "03 - Acide-base et diagrames",
+              "nom": "Acide-base et diagrames",
+              "ordre": 3
+            },
+            {
+              "id": "04 - Oxydoréduction et diagrames",
+              "nom": "Oxydoréduction et diagrames",
+              "ordre": 4
+            }
+          ]
+        },
+        {
+          "id": "SI",
+          "label": "SI",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Cours",
+              "label": "Cours",
+              "abbrev": "C"
+            },
+            {
+              "id": "TD",
+              "label": "Travaux dirigés",
+              "abbrev": "TD"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": [
+            {
+              "id": "01 - Cinématique",
+              "nom": "Cinématique",
+              "ordre": 1
+            },
+            {
+              "id": "02 - Statique",
+              "nom": "Statique",
+              "ordre": 2
+            },
+            {
+              "id": "03 - Engrenages",
+              "nom": "Engrenages",
+              "ordre": 3
+            },
+            {
+              "id": "04 - Asservissement",
+              "nom": "Asservissement",
+              "ordre": 4
+            },
+            {
+              "id": "05 - Concours",
+              "nom": "Concours",
+              "ordre": 5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Culture",
+      "label": "Culture",
+      "color": "#ffac38",
+      "manifest": "Culture/manifest.json",
+      "subjects": [
+        {
+          "id": "Art",
+          "label": "Art",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Bonheur",
+          "label": "Bonheur",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Conscience",
+          "label": "Conscience",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Devoir",
+          "label": "Devoir",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Etat",
+          "label": "État",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Inconscient",
+          "label": "Inconscient",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Justice",
+          "label": "Justice",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Langage",
+          "label": "Langage",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Liberte",
+          "label": "Liberté",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Nature",
+          "label": "Nature",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Pouvoir",
+          "label": "Pouvoir",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Raison",
+          "label": "Raison",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Religion",
+          "label": "Religion",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Science",
+          "label": "Science",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Technique",
+          "label": "Technique",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Temps",
+          "label": "Temps",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Travail",
+          "label": "Travail",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        },
+        {
+          "id": "Verite",
+          "label": "Vérité",
+          "structure": "chapters",
+          "categories": [
+            {
+              "id": "Littérature",
+              "label": "Littérature",
+              "abbrev": "Littérature"
+            },
+            {
+              "id": "Poésie",
+              "label": "Poésie",
+              "abbrev": "Poésie"
+            },
+            {
+              "id": "Philosophie",
+              "label": "Philosophie",
+              "abbrev": "Philosophie"
+            },
+            {
+              "id": "Cinéma",
+              "label": "Cinéma",
+              "abbrev": "Cinéma"
+            },
+            {
+              "id": "Art_visuel",
+              "label": "Art Visuel",
+              "abbrev": "Art"
+            }
+          ],
+          "naming": {
+            "separator": "_",
+            "order": "chap_cat"
+          },
+          "chapters": []
+        }
+      ]
+    }
+  ]
+}
