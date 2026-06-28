@@ -1,0 +1,118 @@
+{
+ "generated": "2026-06-28T17:06:29.115Z",
+ "section": "Culture",
+ "kind": "standard",
+ "data": {
+  "type": "standard",
+  "subjects": [
+   {
+    "id": "Art",
+    "nom": "Art",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Bonheur",
+    "nom": "Bonheur",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Conscience",
+    "nom": "Conscience",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Devoir",
+    "nom": "Devoir",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Etat",
+    "nom": "État",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Inconscient",
+    "nom": "Inconscient",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Justice",
+    "nom": "Justice",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Langage",
+    "nom": "Langage",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Liberte",
+    "nom": "Liberté",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Nature",
+    "nom": "Nature",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Pouvoir",
+    "nom": "Pouvoir",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Raison",
+    "nom": "Raison",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Religion",
+    "nom": "Religion",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Science",
+    "nom": "Science",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Technique",
+    "nom": "Technique",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Temps",
+    "nom": "Temps",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Travail",
+    "nom": "Travail",
+    "ordre": null,
+    "chapters": []
+   },
+   {
+    "id": "Verite",
+    "nom": "Vérité",
+    "ordre": null,
+    "chapters": []
+   }
+  ]
+ }
+}
